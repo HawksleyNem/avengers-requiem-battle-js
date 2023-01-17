@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: #060035;
+    color: #ffffff;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+
+/* Header */
+
+#navbar {
+    background-color: 060035;
+}
+
+#navbar a {
+    text-transform: uppercase;
+}
+
+#banner {
+    max-width: 100vw;
+    height: 100vh;
+    background: url(/assets/img/thor-vs-captain-america-header-blur.png);
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Rules */
+
+#rules {
+    height: 180vh;
+    margin-inline: 6vw;
+    margin-block: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-button {
+    margin-top: 5vh;
+    background-color: #c90000;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 1000px;
+    padding-block: 1vh;
+    padding-inline: 2vw;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+}
+
+#info {
+    padding-block: 6vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 3vh;
+}
+
+#info p {
+    margin-block: 3vh;
+}
+
+.combo {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color: #828282;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.attack-img {
+    margin-block: 2vh;
+    width: 80px;
+    height: 80px;
+}
+
+
+@media screen and (max-width: 640px) {
+    #banner {
+        text-align: center;
+        max-width: 100vw;
+        height: 25vh;
+    }
+
+    #rules {
+        height: 150vh;
+    }
+
+    .arrow {
+        width: 140px;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info p {
+        margin-block: 0.8vh;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+    }
+}

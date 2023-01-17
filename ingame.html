@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/styleig.css" />
+    <script defer src="/assets/js/script.js"></script>
+    <title>Avengers Requiem Battle - Combat</title>
+  </head>
+  <body id="ingame">
+    <header>
+      <!-- Navbar -->
+      <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+              <img
+                src="/assets/img/captain_america.png"
+                alt="Bootstrap"
+                width="35"
+                height="35"
+              />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/index.html"
+                    >Reglement</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/ingame.html"
+                    >Jouer</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <!-- Scores -->
+      <section id="scores">
+        <div id="scores-container">
+          <p>0</p>
+          <p>-</p>
+          <p>0</p>
+        </div>
+      </section>
+      <section id="game">
+        <div id="game-area">
+          <!-- Player pannel -->
+          <div id="player-pannel" class="pannel">
+            <h2>Vous</h2>
+            <div class="attack-list">
+              <img
+                src="/assets/img/captain_america.png"
+                alt="captain-america-shield"
+                class="attack-img"
+              />
+              <img
+                src="/assets/img/hawkeye.png"
+                alt="hawkeye-bow"
+                class="attack-img"
+              />
+              <img
+                src="/assets/img/thor.png"
+                alt="thor-weapon"
+                class="attack-img"
+              />
+            </div>
+          </div>
+          <!-- VS -->
+          <div><p id="vs">VS</p></div>
+          <!-- Computer pannel -->
+          <div id="computer-pannel" class="pannel">
+            <h2>Ordi</h2>
+            <div class="attack-list">
+              <img
+                src="/assets/img/captain_america.png"
+                alt="captain-america-shield"
+                class="attack-img"
+              />
+              <img
+                src="/assets/img/hawkeye.png"
+                alt="hawkeye-bow"
+                class="attack-img"
+              />
+              <img
+                src="/assets/img/thor.png"
+                alt="thor-weapon"
+                class="attack-img"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Lancer la partie -->
+        <div><button class="play-button">JOUER</button></div>
+      </section>
+      <section id="game-stats" class="stats-item">
+        <h2>Statistique de la partie</h2>
+        <!-- Statistiques -->
+        <div id="stats">
+          <!-- Nb manches gagnées Joueur -->
+          <div id="w-rounds-player" class="stats-item">
+            <p>Nombre de manches gagnées - joueur</p>
+            <p>XX</p>
+          </div>
+          <!-- Nb manche gagnées Ordi -->
+          <div id="w-rounds-computer" class="stats-item">
+            <p>Nombre de manches gagnées - ordinateur</p>
+            <p>XX</p>
+          </div>
+          <!-- Taux Joueur -->
+          <div id="player-perc" class="stats-item">
+            <p>Taux de victoire - joueur</p>
+            <p>XX%</p>
+          </div>
+          <!-- Taux Ordinateur -->
+          <div id="computer-perc" class="stats-item">
+            <p>Taux de victoire - ordinateur</p>
+            <p>XX%</p>
+          </div>
+          <!-- Nb égalité -->
+          <div id="draws" class="stats-item">
+            <p>Nombre d'égalité(s)</p>
+            <p>XX</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Informations -->
+      <section id="info">
+        <div id="social-medias" class="footer-item">
+          <h3>Réseaux</h3>
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>Discord</p>
+        </div>
+        <div id="about" class="footer-item">
+          <h3>A propos</h3>
+          <p>A propos de nous</p>
+          <p>Nous rejoidnre</p>
+        </div>
+        <div id="contact" class="footer-item">
+          <h3>Contact</h3>
+          <p>Nous contacter</p>
+          <p>Tél : 03 22 24 53 41</p>
+          <p>Adresse</p>
+        </div>
+      </section>
+      <hr />
+      <!-- Copyright -->
+      <section id="copyright">
+        <p>Copyright - La Manu 2023</p>
+      </section>
+    </footer>
+  </body>
+</html>
