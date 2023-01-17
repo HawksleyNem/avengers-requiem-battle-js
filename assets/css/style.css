@@ -3,14 +3,22 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@font-face {
+    font-family: 'righteous'; 
+    src: url('/assets/fonts/Righteous-Regular.ttf');
+}
 
 body {
     background-color: #060035;
     color: #ffffff;
 }
 
+h1 {
+    font-family: 'righteous'; 
+}
+
 h2 {
+    font-family: 'righteous';
     text-transform: uppercase;
     margin-bottom: 5vh;
 }
@@ -74,6 +82,7 @@ footer {
 }
 
 h3 {
+    font-family: 'righteous';
     text-transform: uppercase;
     font-size: 1.2em;
     margin-bottom: 3vh;
