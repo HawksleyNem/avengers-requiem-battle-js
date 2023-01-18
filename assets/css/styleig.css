@@ -50,6 +50,12 @@ body {
     height: 80px;
 }
 
+.attack-img:hover {
+    margin-inline: -1vh;
+    width: 90px;
+    height: 90px;
+}
+
 #game-area {
     margin-top: 8vh;
     width: 92vw;
