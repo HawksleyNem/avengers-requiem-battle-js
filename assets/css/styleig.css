@@ -104,6 +104,9 @@ body {
     text-transform: uppercase;
 }
 
+
+/* Après une partie */
+
 #game-stats, footer {
     display: none;
 }
@@ -113,5 +116,9 @@ body {
 @media screen and (max-width: 640px) {
     #scores-container {
         width: 40vw;
+    }
+
+    #game-stats h2 {
+        text-align: center;
     }
 }
