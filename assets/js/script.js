@@ -80,7 +80,7 @@ const doChoixComputer = (choixPlayer) => {
   
   }
   else if (scoreOrdinateur.textContent =="10"){
-  message.textContent = "Vous perdu..."
+  message.textContent = "Vous avez perdu..."
   scoreJoueur.textContent = "0"
   scoreOrdinateur.textContent = "0"
   console.log(scoreOrdinateur);
