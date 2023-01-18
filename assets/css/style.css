@@ -150,3 +150,8 @@ hr {
         margin-top: 5vh;
     }
 }
+.attack-img:hover {
+    margin-inline: -1vh;
+    width: 90px;
+    height: 90px;
+}
