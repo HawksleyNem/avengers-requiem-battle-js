@@ -56,7 +56,7 @@ const doChoixComputer = (choixPlayer) => {
     (choixPlayer == 2 && nbAleatoire == 0)
   ) {
     message.textContent =
-      "Vous avez une puissance plus élevé que l'ordinateur ! :)";
+      "Vous avez une puissance plus élevée !";
     scoreJoueur.textContent++
     console.log(scoreJoueur)
   } else if (
@@ -64,7 +64,7 @@ const doChoixComputer = (choixPlayer) => {
     (choixPlayer == 2 && nbAleatoire == 1) ||
     (choixPlayer == 0 && nbAleatoire == 2)
   ) {
-    message.textContent = "L'ordinateur a une puissance plus élevé...";
+    message.textContent = "L'ordinateur a une puissance plus élevée...";
     scoreOrdinateur.textContent++
   }
 
