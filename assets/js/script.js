@@ -7,7 +7,7 @@
 //   footer.style.display = "0";
 // });
 
-let reset = document.querySelector("#reset");
+// let reset = document.querySelector(".play-button");
 // console.log(reset)
 let scoreJoueur = document.querySelector("#score-player");
 // console.log(scoreJoueur)
@@ -85,4 +85,9 @@ const doChoixComputer = (choixPlayer) => {
   scoreOrdinateur.textContent = "0"
   console.log(scoreOrdinateur);
 }
+};
+
+document.querySelector(".play-button").onclick = function () {
+  scoreJoueur.textContent = "0"
+  scoreOrdinateur.textContent = "0"
 };
