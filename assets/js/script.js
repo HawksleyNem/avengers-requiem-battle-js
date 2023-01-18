@@ -72,7 +72,7 @@ const doChoixComputer = (choixPlayer) => {
 
 
   if (scoreJoueur.textContent == "10"){
-    message.textContent = `Vous avez gagner Youpi`
+    message.textContent = `Vous avez gagné !`
   scoreJoueur.textContent = "0"
   console.log(scoreJoueur.textContent);
   scoreOrdinateur.textContent = "0"
@@ -80,7 +80,7 @@ const doChoixComputer = (choixPlayer) => {
   
   }
   else if (scoreOrdinateur.textContent =="10"){
-  message.textContent = "Finish vous avez loose.."
+  message.textContent = "Vous perdu..."
   scoreJoueur.textContent = "0"
   scoreOrdinateur.textContent = "0"
   console.log(scoreOrdinateur);
