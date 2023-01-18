@@ -86,7 +86,3 @@ const doChoixComputer = (choixPlayer) => {
   console.log(scoreOrdinateur);
 }
 };
-
-
-
-
